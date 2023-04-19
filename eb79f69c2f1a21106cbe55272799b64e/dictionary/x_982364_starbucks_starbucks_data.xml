@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6acc93542fda21106cbe55272799b613" extends="sys_import_set_row" label="Starbucks data" max_length="40" name="x_982364_starbucks_starbucks_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=A" label="A" max_length="67" name="u_a" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Calories" label="Calories" max_length="40" name="u_calories" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Carb. (g)" label="Carb. (g)" max_length="40" name="u_carb___g_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fat (g)" label="Fat (g)" max_length="40" name="u_fat__g_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fiber (g)" label="Fiber (g)" max_length="40" name="u_fiber__g_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Protein" label="Protein" max_length="40" name="u_protein" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sodium" label="Sodium" max_length="40" name="u_sodium" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a285135c2f9a21106cbe55272799b666" label="x_982364_starbucks_m2m_Starbucks_Starbucks Drinks" max_length="40" name="x_982364_starbucks_m2m_x_982364_sta_x_982364_sta" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Size" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tall" sequence="0" value="Tall"/>
+                <element inactive_on_update="false" label="Grande" sequence="1" value="Grande"/>
+                <element inactive_on_update="false" label="Venti" sequence="2" value="Venti"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Starbucks" max_length="32" name="x_982364_starbucks_starbucks" reference="x_982364_starbucks_starbucks" type="reference"/>
+        <element attributes="encode_utf8=false" label="Starbucks Drinks" max_length="32" name="x_982364_starbucks_starbucks_drink" reference="x_982364_starbucks_starbucks_drink" type="reference"/>
+        <index name="index">
+            <element name="x_982364_starbucks_starbucks"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"stages":{},"subflows":["4b6570360a0a0b3000bbacab877713f2"],"ends":["69beaea82fd661106cbe55272799b665"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>e1beaea82fd661106cbe55272799b664,00eee2e82fd661106cbe55272799b68d,69beaea82fd661106cbe55272799b665</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>e1beaea82fd661106cbe55272799b664,00eee2e82fd661106cbe55272799b68d,69beaea82fd661106cbe55272799b665</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Starbuck SLA Workflow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">e1beaea82fd661106cbe55272799b664</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:26:56</sys_created_on>
+        <sys_id>d08e2aa82fd661106cbe55272799b65d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:28:44</sys_updated_on>
+        <table>x_982364_starbucks_starbucks</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="Starbuck SLA Workflow">61beaea82fd661106cbe55272799b663</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Starbuck SLA Workflow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:26:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61beaea82fd661106cbe55272799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starbuck SLA Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope>
+        <sys_update_name>wf_workflow_61beaea82fd661106cbe55272799b663</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:26:56</sys_updated_on>
+        <table>x_982364_starbucks_starbucks</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:26:56</sys_created_on>
+        <sys_id>e1beaea82fd661106cbe55272799b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:26:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Starbuck SLA Workflow">d08e2aa82fd661106cbe55272799b65d</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e1beaea82fd661106cbe55272799b664"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">e1beaea82fd661106cbe55272799b664</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:26:56</sys_created_on>
+        <sys_id>edbeaea82fd661106cbe55272799b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:26:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Default SLA workflow</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:27:39</sys_created_on>
+        <sys_id>00eee2e82fd661106cbe55272799b68d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:27:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Starbuck SLA Workflow">d08e2aa82fd661106cbe55272799b65d</workflow_version>
+        <x>167</x>
+        <y>58</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=00eee2e82fd661106cbe55272799b68d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>00eee2e82fd661106cbe55272799b68d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:27:39</sys_created_on>
+        <sys_id>c4ee622c2fd661106cbe55272799b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:27:39</sys_updated_on>
+        <value>70ceeee82fd661106cbe55272799b644</value>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>00eee2e82fd661106cbe55272799b68d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:27:39</sys_created_on>
+        <sys_id>c4ee622c2fd661106cbe55272799b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:27:39</sys_updated_on>
+        <value>70ceeee82fd661106cbe55272799b644</value>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Default SLA workflow">00eee2e82fd661106cbe55272799b68d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:27:39</sys_created_on>
+        <sys_id>40ee622c2fd661106cbe55272799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:27:39</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:26:56</sys_created_on>
+        <sys_id>69beaea82fd661106cbe55272799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:26:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Starbuck SLA Workflow">d08e2aa82fd661106cbe55272799b65d</workflow_version>
+        <x>400</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=69beaea82fd661106cbe55272799b665"/>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">40ee622c2fd661106cbe55272799b636</condition>
+        <from display_value="Default SLA workflow">00eee2e82fd661106cbe55272799b68d</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:27:43</sys_created_on>
+        <sys_id>3cee2e602fd661106cbe55272799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:27:43</sys_updated_on>
+        <to display_value="End">69beaea82fd661106cbe55272799b665</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">edbeaea82fd661106cbe55272799b664</condition>
+        <from display_value="Begin">e1beaea82fd661106cbe55272799b664</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:26:56</sys_created_on>
+        <sys_id>61beaea82fd661106cbe55272799b666</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:27:43</sys_updated_on>
+        <to display_value="Default SLA workflow">00eee2e82fd661106cbe55272799b68d</to>
+    </wf_transition>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Default SLA workflow">00eee2e82fd661106cbe55272799b68d</activity>
+        <return_map/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:27:39</sys_created_on>
+        <sys_id>70ceeee82fd661106cbe55272799b644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:27:39</sys_updated_on>
+        <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
+        <workflow_version display_value="Starbuck SLA Workflow">d08e2aa82fd661106cbe55272799b65d</workflow_version>
+    </wf_workflow_instance>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:26:56</sys_created_on>
+        <sys_id>a9beaea82fd661106cbe55272799b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:26:56</sys_updated_on>
+        <workflow_version display_value="Starbuck SLA Workflow">d08e2aa82fd661106cbe55272799b65d</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=61beaea82fd661106cbe55272799b663^sys_id!=d08e2aa82fd661106cbe55272799b65d">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

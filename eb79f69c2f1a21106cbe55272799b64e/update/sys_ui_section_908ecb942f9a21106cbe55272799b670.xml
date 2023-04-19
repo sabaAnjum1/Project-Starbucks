@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="908ecb942f9a21106cbe55272799b670" sys_domain="global" table="x_982364_starbucks_starbucks" version="3" view="mobile_form_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>748ecf542f9a21106cbe55272799b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_for</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>f48ecf542f9a21106cbe55272799b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>788ecf542f9a21106cbe55272799b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>f88ecf542f9a21106cbe55272799b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>7c8ecf542f9a21106cbe55272799b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>fc8ecf542f9a21106cbe55272799b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>708ecf542f9a21106cbe55272799b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>f08ecf542f9a21106cbe55272799b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:23</sys_created_on>
+            <sys_id>748ecf542f9a21106cbe55272799b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_982364_starbucks_starbucks" sys_domain="global" view="ac4b43902f9a21106cbe55272799b6eb">908ecb942f9a21106cbe55272799b670</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_982364_starbucks_starbucks</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-15 18:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>908ecb942f9a21106cbe55272799b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_982364_starbucks_starbucks</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope>
+            <sys_update_name>sys_ui_section_908ecb942f9a21106cbe55272799b670</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-15 18:07:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Mobile Form View" name="mobile_form_view">ac4b43902f9a21106cbe55272799b6eb</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

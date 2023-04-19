@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>starbuck_sla_workflow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Starbuck SLA Workflow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 09:08:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b5ac12ac2f5661106cbe55272799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starbuck SLA Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope>
+        <sys_update_name>sys_hub_flow_b5ac12ac2f5661106cbe55272799b6c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 09:08:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_variable_value action="DELETE" query="document_key=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=b5ac12ac2f5661106cbe55272799b6c9^sys_idNOT IN75ac12ac2f5661106cbe55272799b6cb"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>b5ac12ac2f5661106cbe55272799b6c9</id>
+        <name>Starbuck SLA Workflow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 09:08:02</sys_created_on>
+        <sys_id>75ac12ac2f5661106cbe55272799b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 09:08:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=75ac12ac2f5661106cbe55272799b6cb"/>
+    <sys_hub_flow_input action="DELETE" query="model=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_flow_output action="DELETE" query="model=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_action_instance action="DELETE" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_hub_flow_variable action="DELETE" query="model=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=b5ac12ac2f5661106cbe55272799b6c9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</application>
+        <file_path/>
+        <instance_id>4b0ee471dbb83fc0b847ac44d49619a7</instance_id>
+        <instance_name>dev80874</instance_name>
+        <name>sys_hub_flow_b5ac12ac2f5661106cbe55272799b6c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>starbuck_sla_workflow</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Starbuck SLA Workflow</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-16 09:08:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b5ac12ac2f5661106cbe55272799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Starbuck SLA Workflow</sys_name><sys_overrides/><sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package><sys_policy/><sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope><sys_update_name>sys_hub_flow_b5ac12ac2f5661106cbe55272799b6c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-16 09:08:02</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=b5ac12ac2f5661106cbe55272799b6c9"/><sys_variable_value action="delete_multiple" query="document_key=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_trigger_instance action="delete_multiple" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_flow_stage action="delete_multiple" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/><sys_flow_cat_variable_model action="delete_multiple" query="id=b5ac12ac2f5661106cbe55272799b6c9^sys_idNOT IN75ac12ac2f5661106cbe55272799b6cb"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>b5ac12ac2f5661106cbe55272799b6c9</id><name>Starbuck SLA Workflow</name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-16 09:08:02</sys_created_on><sys_id>75ac12ac2f5661106cbe55272799b6cb</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-16 09:08:02</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=75ac12ac2f5661106cbe55272799b6cb"/><sys_hub_flow_input action="delete_multiple" query="model=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_flow_output action="delete_multiple" query="model=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_action_instance action="delete_multiple" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_flow_logic action="delete_multiple" query="flow=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=b5ac12ac2f5661106cbe55272799b6c9"/><sys_hub_flow_variable action="delete_multiple" query="model=b5ac12ac2f5661106cbe55272799b6c9"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b5ac12ac2f5661106cbe55272799b6c9"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b5ac12ac2f5661106cbe55272799b6c9"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b5ac12ac2f5661106cbe55272799b6c9"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b5ac12ac2f5661106cbe55272799b6c9"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=b5ac12ac2f5661106cbe55272799b6c9"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=b5ac12ac2f5661106cbe55272799b6c9"/></record_update>]]></payload>
+        <payload_hash>-406259693</payload_hash>
+        <record_name>Starbuck SLA Workflow</record_name>
+        <reverted_from/>
+        <source>67b93edc2f1a21106cbe55272799b609</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 09:08:03</sys_created_on>
+        <sys_id>0eac56682f9661106cbe55272799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187895246380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 09:08:03</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>42ac5668949661103d8188f4a103012a</update_guid>
+        <update_guid_history>42ac5668949661103d8188f4a103012a:-406259693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 10:52:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>054d53332a7d4a14803151fea8a98b10</sys_id>
+        <sys_metadata>b5ac12ac2f5661106cbe55272799b6c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starbuck SLA Workflow</sys_name>
+        <sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope>
+        <sys_scope_delete display_value="">338b6f013ac34c0a95579b5cc5f93de4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_b5ac12ac2f5661106cbe55272799b6c9</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_b5ac12ac2f5661106cbe55272799b6c9">0eac56682f9661106cbe55272799b62a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 10:52:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

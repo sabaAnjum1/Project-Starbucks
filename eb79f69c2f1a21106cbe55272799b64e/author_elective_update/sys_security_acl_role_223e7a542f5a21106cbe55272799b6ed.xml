@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-15 16:56:15</sys_created_on>
+        <sys_id>223e7a542f5a21106cbe55272799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_982364_starbucks_starbucks_drink.x_982364_starbucks.starbucks_user</sys_name>
+        <sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope>
+        <sys_security_acl display_value="x_982364_starbucks_starbucks_drink">623e7a542f5a21106cbe55272799b6ea</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_223e7a542f5a21106cbe55272799b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-15 16:56:15</sys_updated_on>
+        <sys_user_role display_value="x_982364_starbucks.starbucks_user" name="x_982364_starbucks.starbucks_user">9e8bba902f5a21106cbe55272799b6fd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</application>
+        <file_path/>
+        <instance_id>4b0ee471dbb83fc0b847ac44d49619a7</instance_id>
+        <instance_name>dev80874</instance_name>
+        <name>sys_security_acl_role_223e7a542f5a21106cbe55272799b6ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-15 16:56:15</sys_created_on><sys_id>223e7a542f5a21106cbe55272799b6ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_982364_starbucks_starbucks_drink.x_982364_starbucks.starbucks_user</sys_name><sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package><sys_policy/><sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope><sys_security_acl display_value="x_982364_starbucks_starbucks_drink">623e7a542f5a21106cbe55272799b6ea</sys_security_acl><sys_update_name>sys_security_acl_role_223e7a542f5a21106cbe55272799b6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-15 16:56:15</sys_updated_on><sys_user_role display_value="x_982364_starbucks.starbucks_user" name="x_982364_starbucks.starbucks_user">9e8bba902f5a21106cbe55272799b6fd</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-665620448</payload_hash>
+        <record_name>x_982364_starbucks_starbucks_drink.x_982364_starbucks.starbucks_user</record_name>
+        <reverted_from/>
+        <source>67b93edc2f1a21106cbe55272799b609</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-15 16:56:15</sys_created_on>
+        <sys_id>a63e3e542f5a21106cbe55272799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18785d8903b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-15 16:56:15</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ea3e3e541e5a2110ba19d20346f849b3</update_guid>
+        <update_guid_history>ea3e3e541e5a2110ba19d20346f849b3:-665620448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_982364_starbucks_starbucks_drink.x_982364_starbucks.starbucks_user">5c7807102f9a21106cbe55272799b66e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-15 17:40:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1d6ff24f6c5e43de83995a14f9ff4b04</sys_id>
+        <sys_metadata>223e7a542f5a21106cbe55272799b6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_982364_starbucks_starbucks_drink.x_982364_starbucks.starbucks_user</sys_name>
+        <sys_package display_value="Starbucks Management" source="x_982364_starbucks">eb79f69c2f1a21106cbe55272799b64e</sys_package>
+        <sys_parent display_value="">623e7a542f5a21106cbe55272799b6ea</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">eb79f69c2f1a21106cbe55272799b64e</sys_scope>
+        <sys_scope_delete display_value="">338b6f013ac34c0a95579b5cc5f93de4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_223e7a542f5a21106cbe55272799b6ed</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_223e7a542f5a21106cbe55272799b6ed">a63e3e542f5a21106cbe55272799b6b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-15 17:40:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

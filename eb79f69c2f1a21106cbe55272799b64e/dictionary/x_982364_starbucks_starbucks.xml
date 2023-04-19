@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="313cc3142f9a21106cbe55272799b6ba" extends="task" label="Starbucks" max_length="40" name="x_982364_starbucks_starbucks" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="m2m Table" max_length="1024" name="m2m_table" reference="x_982364_starbucks_m2m_x_982364_sta_x_982364_sta" type="glide_list"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Order for" max_length="32" name="order_for" reference="sys_user" reference_qual="roles=starbucks_user^EQ" reference_qual_condition="roles=starbucks_user^EQ" type="reference" use_dynamic_default="true"/>
+    </element>
+</database>
